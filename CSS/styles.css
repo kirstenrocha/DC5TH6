@@ -1,0 +1,69 @@
+body {
+  background-color: white;
+  margin: 0px;
+}
+
+.header {
+  height: 80px;
+  border: 10px rgb(22, 22, 22) solid;
+  background-color: rgb(165, 42, 114);
+  position: sticky;
+  top: 0px;
+  text-align-last: right;
+}
+
+.nav {
+  height: 85px;
+  text-align: center;
+  background-color: rgb(212, 204, 199);
+}
+
+.leftside {
+  height: 400px;
+  width: 50%;
+  text-align: center;
+  background-color: teal;
+  float: left;
+}
+
+.section {
+  height: 200px;
+  text-align: center;
+  background-color: yellow;
+}
+
+.article {
+  height: 200px;
+  text-align: center;
+}
+
+.aside {
+  height: 400px;
+  text-align: center;
+  background-image: url(../images/womensday.jpg);
+  background-size: 25%;
+  box-shadow: -13px -13px rgb(214, 117, 214);
+}
+
+.footer {
+  height: 500px;
+  text-align: center;
+  background-color: rgb(165, 42, 114);
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  text-shadow: 1px 1px white;
+  color: black;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(180, 105, 149);
+  color: rgb(62, 62, 146);
+}
+
+a:visited {
+  color: rgb(22, 71, 22);
+}
